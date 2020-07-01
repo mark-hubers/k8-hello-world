@@ -24,7 +24,7 @@ var server = http.createServer(function (req, res) {   //create web server
       res.writeHead(200, { 'Content-Type': 'text' }); 
       
       // set response content    
-      res.write('Hello EKS!\n');
+      res.write('Hello World!\n');
   
       Object.keys(env).forEach(function(key) {
          console.log('export ' + key + '="' + env[key] +'"');
